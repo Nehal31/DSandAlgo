@@ -48,7 +48,7 @@ int main(){
 	int arr[] = {10, 8, 19, 2, 18, 7, 58, 77};
 	
 	int size = sizeof(arr) / sizeof(arr[0]);
-	printf("Befor Sorting : \n");
+	printf("Before Sorting : \n");
 	print_array(arr, size);
 	merge_sort(arr, 0, size - 1 );
 	printf("After Sorting : \n");
